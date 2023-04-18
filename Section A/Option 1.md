@@ -5,9 +5,9 @@ The solution will throw an [IndentationError](https://docs.python.org/3/library/
 The python sorted method uses the Timsort sorting algorithm which has the time complexity O(n log n) in the worst case, where n would be the length of the word. The sorted method is called m times, where m is the length of the strings array. The overall time efficiency of the solution would be O( mn log n)
 ### Style
 Other than the initial indetantion mistake that happened the rest of the code was properly indented. Python generally follows the [PEP 8](https://peps.python.org/pep-0008/) style guidelines and the coode does adhere to the guideline. The improvement that could be done is to name the other variables(i,x, and strs) meaningfully. Example of meaningful names for the variables could be:
-strs -> words
-i -> word  
-x -> sorted_letters  
+- strs -> words
+- i -> word  
+- x -> sorted_letters  
 
 ### Documentation
 Both the class and the method could benefit from using docstrings to explain their intended use. The class docstring could look like this:
